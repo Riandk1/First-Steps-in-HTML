@@ -4,35 +4,40 @@
         <title>Home page</title>
         <meta charset="utf-8">
     <!--CSS internal below-->
-    <style>
+    <!--<style>
         p{
             color:blue;
         }
-    </style>
+    </style>-->
+
+    <link href="style.css" rel="stylesheet" 
 
     </head>
 
     <body>
 
+        <a href="#logo_blue"> Logo</a>
+
     <!--Remember do comments 
     for future things-->
 
-        <h1>The importance of studying</h1>
+        <h1 id="title">The importance of studying</h1>
 
         <h2>The study and its benefits</h2>
     <!--CSS type inlined below-->
-        <p style="color: red;">Good study skills can increase your confidence, competence, and self-esteem. They can also reduce anxiety about tests and deadlines. By developing effective study skills, you may be able to cut down on the numbers of hours spend studying, leaving more time for other things in your life.</p>
+    <!--style="color: red;"-->
+        <p id="first">Good study skills can increase your confidence, competence, and self-esteem. They can also reduce anxiety about tests and deadlines. By developing effective study skills, you may be able to cut down on the numbers of hours spend studying, leaving more time for other things in your life.</p>
 
         <!--IMPORTANT NOTE: Always try to use semantic tags. -->
-        <p> This is a <strong>Bold Text.</strong></p>
+        <p class="green_text"> This is a <strong>Bold Text.</strong></p>
         <!--<p> This is another <b>Bold Text.</b></p>
             The tag STRONG is more important for search engines than tag b.-->
         
-        <p> This is a <em>Italic Text.</em></p>
+        <p class="green_text"> This is a <strong>em>Italic Text.</em></p>
         <!--<p> This is a <i>Italic Text.</i></p>
             The tag EM is more important for search engines than tag i.-->
 
-        <p> This is a <mark>text with markup.</mark></p>
+        <p class="green_text"> This is a <mark>text with markup.</mark></p>
 
         <p> This is a text with <small>Small tag.</small></p>
 
@@ -50,13 +55,14 @@
         <a href="sobre.html">About study</a>
         <br>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Information_green.svg/1200px-Information_green.svg.png" alt="logo informationGreen" width="300">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Information_green.svg/1200px-Information_green.svg.png" alt="logo information Green" width="300">
         <br> 
+        <br>
         <br>
 
         <a href="https://pt.wikipedia.org/wiki/Ficheiro:Information_icon.svg">
 
-        <img src="Assets/logo_infoblue.png" alt="logo information blue" width="300">
+        <img id="logo_blue" src="Assets/logo_infoblue.png" alt="logo information blue" width="300">
         </a>
 
         <h2>List of materials</h2>
